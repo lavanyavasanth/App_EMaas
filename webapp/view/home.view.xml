@@ -1,0 +1,66 @@
+<mvc:View xmlns:smartmultiedit="sap.ui.comp.smartmultiedit" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="bts.testapp.testproject1.controller.home" displayBlock="true" xmlns:tnt="sap.tnt" height="100%">
+	<Shell>
+		<App>
+			<pages>
+				<Page id="page1" class="pageImg">
+					<content>
+                        
+                        
+                            <tnt:ToolHeader>
+                                <!-- <Button icon="sap-icon://home" type="Transparent" press=".onHomePress">
+                                    <layoutData>
+                                        <OverflowToolbarLayoutData priority="NeverOverflow" />
+                                    </layoutData>
+                                </Button> -->
+
+                                <ImageContent
+                                class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                                src="/image/logo.png"
+                                description="Logo"
+                                press="homeLogo">
+                                </ImageContent>
+
+
+                                <IconTabHeader
+                                    id="iconTabHeader"
+                                    selectedKey="invalidKey"
+                                    select=".onSelectTab"
+                                    backgroundDesign="Transparent"
+                                    mode="Inline">
+                                    <layoutData>
+                                        <OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true" />
+                                    </layoutData>
+                                    <items>
+                                        <IconTabFilter text="Working For Us" />
+                                        <IconTabFilter text="What’s Happening" />
+                                        <IconTabFilter text="Have Your Say" />
+                                        <IconTabFilter text="COVID-19(Coronavirus)" />
+                                        <IconTabFilter text="Register" />
+                                    </items>
+                                </IconTabHeader>
+<!-- <Button text="Back" press="backNavigation"></Button> -->
+                                <Button text="Login" press="loginNavigation" class="login_button"></Button>
+                            </tnt:ToolHeader>
+                    </content>
+                    <Text text="Find information, access services." class="test_first"></Text>
+                    <Text text="NSW Government" class="bold_text"></Text>
+                    <Button text="Contact Us" class="contact_us"></Button>
+ 
+ 
+                    
+                    <footer>
+                        <Bar design="Footer">
+                        <contentRight>
+                            <Text text="Copyright 2021"></Text>
+                        </contentRight>
+                        </Bar>
+                    </footer>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+
+
+	<!--   -->
+
+</mvc:View>

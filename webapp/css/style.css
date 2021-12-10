@@ -1,0 +1,87 @@
+/* Enter your custom styles here */
+.sapTntToolHeader.sapMTB {
+    height: 5rem;
+}
+.sapMITBHead {
+    padding: 0 7rem;
+}
+.sapMInputBaseContentWrapper{
+    border: 1px solid black;
+}
+/* .sapMBtn:hover>.sapMBtnHoverable {
+    background-image: none;
+    background-color: #143981!important;
+    border-color: #fff!important;
+    color: #fff!important;
+} */
+.pageImg{
+    background-image: url('../image/mainScr.jpg');
+    background-color: rgb(243, 243, 243);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.test_first {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(177, 12, 12);
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.bold_text{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "72","72full",Arial,Helvetica,sans-serif;
+    line-height: normal;
+    color: rgb(177, 12, 12);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.contact_us{
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+.sapMBtnInner.sapMBtnText {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sapMFlexBoxAlignContentCenter {
+    border: 2px solid #143981;
+    align-content: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sapMLabel{
+    font-weight: bold;
+}
+.sapMTitle{
+    top: 10%;
+    left: 33%;
+    font-weight: 700;
+    font-size: 35px;
+}
+.sapMITBInLine.sapMITBTextOnly .sapMITBHead .sapMITBVertical.sapMITBFilter {
+    font-weight: 700;
+}
+.sapUiForm .sapUiFormTitle {
+    height: 4rem;
+    line-height: 5rem;
+    font-weight: 700;
+    text-decoration: underline ;
+}
+.sapMGT {
+    top: 20%;
+}
+/* .sapMBar{
+    height: 1px;
+} */

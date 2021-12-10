@@ -1,0 +1,90 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormDisplay480_12120"
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="View my Details"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+				<core:Title text="Personal Information" />
+				<Label text="First Name" />
+				<Text text="{FirstName}" />
+                <Label text="Given Name" />
+				<Text text="{GivenName}" />
+                <Label text="Surname" />
+				<Text text="{Surname}" />
+                <Label text="Gender" />
+				<Text text="{Gender}" />
+                <Label text="Date Of Birth" />
+				<Text text="{DOB}" />
+				<Label text="Street/No." />
+				<Text text="{Street} {HouseNumber}" />
+				<Label text="ZIP Code/City" />
+				<Text text="{ZIPCode} {City}" />
+				<Label text="Country" />
+				<Text text="{Country}" />
+                <Label text="Contact Mobile" />
+				<Text text="{ContactMobile}" />
+                <Label text="Email" />
+				<Text text="{Email}" />
+
+				<core:Title text="Certifications" />
+				<Label text="Certification Name" />
+				<Text text="{CertificationName}" />
+				<Label text="Date Of Expiry" />
+				<Text text="{DOE}" />
+			</f:content>
+		</f:SimpleForm>
+		<f:SimpleForm id="SimpleFormDisplay480_12120-2"
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="More"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<core:Title text="Government Information(If Applicable)" />
+				<Label text="Department" />
+				<Text text="{Department}" />
+				<Label text="Role" />
+				<Text text="{Role}" />
+				<Label text="Location" />
+				<Text text="{Location}" />
+                <Label text="Work Phone" />
+				<Text text="{WorkPhone}" />
+                <Label text="Work Email" />
+				<Text text="{WorkEmail}" />
+                <Label text="Department ID" />
+				<Text text="{DepartmentID}" />
+                <Label text="EMaaSID" />
+				<Text text="{EMaaSID}" />
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>

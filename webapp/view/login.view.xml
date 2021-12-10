@@ -1,0 +1,71 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="bts.testapp.testproject1.controller.login" displayBlock="true" xmlns:tnt="sap.tnt" height="100%">
+
+    <Shell>
+		<App>
+			<pages>
+				<Page id="page2">
+					<content>
+
+                            <tnt:ToolHeader >
+
+                            
+
+                                <ImageContent
+                                class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                                src="/image/logo.png"
+                                description="Logo"
+                                press="homeLogo">
+                                </ImageContent>
+
+
+                                <IconTabHeader
+                                    id="iconTabHeader"
+                                    selectedKey="invalidKey"
+                                    select=".onSelectTab"
+                                    backgroundDesign="Transparent"
+                                    mode="Inline">
+                                    <layoutData>
+                                        <OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true" />
+                                    </layoutData>
+                                    <items>
+                                        <IconTabFilter text="Working For Us" />
+                                        <IconTabFilter text="What’s Happening" />
+                                        <IconTabFilter text="Have Your Say" />
+                                        <IconTabFilter text="COVID-19(Coronavirus)" />
+                                    </items>
+                                </IconTabHeader>
+
+                            <Button text="Login" press="loginNavigation" class="login_button"></Button>
+                            </tnt:ToolHeader>
+                    </content>
+                          <Title text="Login Form"></Title>
+
+                            <VBox fitContainer="true" justifyContent="Center" alignItems="Center" alignContent="Center">
+                            
+                                <items>
+                                    <Label text="Username" required="true"></Label>
+                                    <Input id="username"></Input>
+                                    <Label text="Password" required="true"></Label>
+                                    <Input id="password" type="Password"></Input>
+                                    <Button text="Login" press="onLoginUser"></Button>  
+                                    <!-- <Button width="12rem" text="Login" type="Emphasized" press="onNextTap"></Button> -->
+                                </items>
+                            
+                            </VBox>
+
+                   
+                  
+                     <footer>
+                        <Bar design="Footer">
+                        <contentRight>
+                            <Text text="Copyright 2021"></Text>   
+                            
+                        </contentRight>
+                        </Bar>
+                    </footer>
+                    
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

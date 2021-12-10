@@ -1,0 +1,75 @@
+<mvc:View xmlns:smartmultiedit="sap.ui.comp.smartmultiedit" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="bts.testapp.testproject1.controller.HRadmin" displayBlock="true" xmlns:tnt="sap.tnt" height="100%">
+    <Shell>
+        <App >
+            <pages>
+                <Page>
+                    <!-- <content>
+                        <tnt:ToolHeader>
+                            <ImageContent class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                            src="/image/logo.png" description="Logo" press="#">
+                                <IconTabHeader
+                                        id="iconTabHeader"
+                                        selectedKey="invalidKey"
+                                        select=".onSelectTab"
+                                        backgroundDesign="Transparent"
+                                        mode="Inline">
+                                        <layoutData>
+                                            <OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true" />
+                                        </layoutData>
+                                        <items>
+                                            <IconTabFilter text="Working For Us" />
+                                            <IconTabFilter text="What’s Happening" />
+                                            <IconTabFilter text="Have Your Say" />
+                                            <IconTabFilter text="COVID-19(Coronavirus)" />
+                                        </items>
+                                    </IconTabHeader>                                
+                            </ImageContent>
+                        </tnt:ToolHeader>
+                    </content> -->
+                    <Title text="Employee/New Hire" ></Title>
+
+                            
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employee Data"  press="#">    
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>    
+                            </GenericTile>
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employee Service Requests"  press="#">        
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>                        
+                            </GenericTile>
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employment Checklists"  press="#">   
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>                                 
+                            </GenericTile>
+                             <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employee Information Workbench"  press="#">    
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>    
+                            </GenericTile>
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employee Migration Packages"  press="#">        
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>                        
+                            </GenericTile>
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Induction/Secondment Guides for Managers"  press="#">   
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>                                 
+                            </GenericTile>
+
+                             <footer>
+                                <Bar design="Footer">
+                                    <contentRight>
+                                        <Text text="Copyright 2021"></Text>                        
+                                    </contentRight>
+                                </Bar>
+                            </footer>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+
+</mvc:View>

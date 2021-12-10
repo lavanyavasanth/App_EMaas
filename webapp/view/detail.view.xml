@@ -1,0 +1,79 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="bts.testapp.testproject1.controller.detail" displayBlock="true" xmlns:tnt="sap.tnt" height="100%">
+
+    <Shell>
+		<App>
+			<pages>
+				<Page id="page2">
+					<content>
+
+                            <tnt:ToolHeader >
+
+                            <!-- <Button icon="sap-icon://home" type="Transparent" press=".onHomePress">
+                                    <layoutData>
+                                        <OverflowToolbarLayoutData priority="NeverOverflow" />
+                                    </layoutData>
+                                </Button> -->
+
+                                <ImageContent
+                                class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                                src="/image/logo.png"
+                                description="Logo"
+                                press="#">
+                                </ImageContent>
+
+
+                                <IconTabHeader
+                                    id="iconTabHeader"
+                                    selectedKey="invalidKey"
+                                    select=".onSelectTab"
+                                    backgroundDesign="Transparent"
+                                    mode="Inline">
+                                    <layoutData>
+                                        <OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true" />
+                                    </layoutData>
+                                    <items>
+                                        <IconTabFilter text="Working For Us" />
+                                        <IconTabFilter text="What’s Happening" />
+                                        <IconTabFilter text="Have Your Say" />
+                                        <IconTabFilter text="COVID-19(Coronavirus)" />
+                                    </items>
+                                </IconTabHeader>
+                            <Button text="Logout" press="logoutNavigation" class="logout_button"></Button>
+                            
+                            </tnt:ToolHeader>
+                             </content>
+
+                            <Title text="Employee Details" ></Title>
+
+                            
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Update My Details"  press="UpdatePress">    
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>    
+                            </GenericTile>
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employment History"  press="#">        
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>                        
+                            </GenericTile>
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Preboarding/Onboarding Checklist"  press="#">   
+                                <TileContent >
+                                    <ImageContent  src="sap-icon://arrow-right" />
+                                </TileContent>                                 
+                            </GenericTile>
+
+
+                   
+                            <footer>
+                                <Bar design="Footer">
+                                    <contentRight>
+                                        <Text text="Copyright 2021"></Text>                        
+                                    </contentRight>
+                                </Bar>
+                            </footer>
+                            
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

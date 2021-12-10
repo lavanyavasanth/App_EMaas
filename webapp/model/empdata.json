@@ -1,0 +1,27 @@
+{
+	"PeopleCollection": [
+		{
+			"FirstName": "Andrew",
+            "GivenName": "John",
+            "Surname": "Thomas",
+            "Gender": "Male",
+            "DOB": "30/12/1988",
+			"Street": "Main St",
+			"HouseNumber": "1618",
+			"ZIPCode": "31415",
+			"City": "Maintown",
+			"Country": "Germany",
+            "ContactMobile":"0456378675",
+            "Email":"andrewj12@gmail.com",
+			"CertificationName": "SAP Integration Suite",
+			"DOE": "12/11/2029",
+			"Department": "Premier and Cabinet ",
+			"Role": "Manager Fiance & Reporting",
+			"Location": "52, Robert Street, Sydney,NSW 2000",
+			"WorkPhone": "+49 173 123456",
+			"WorkEmail": "andrew.john@gmail.com",			
+			"DepartmentID": "478637PCU",
+			"EMaaSID": "EM678652"
+		}
+	]
+}

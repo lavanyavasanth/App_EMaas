@@ -1,0 +1,53 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns="sap.m" controllerName="bts.testapp.testproject1.controller.profilePage" displayBlock="true" xmlns:tnt="sap.tnt" height="100%">
+
+    <Shell>
+		<App>
+			<pages>
+				<Page id="pageForm" showHeader="true" >
+					<customHeader>
+                       <tnt:ToolHeader >
+
+                                <ImageContent
+                                    class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                                    src="/image/logo.png"
+                                    description="Logo"
+                                    press="#">
+                                </ImageContent>
+
+
+                                <IconTabHeader
+                                    id="iconTabHeader"
+                                    selectedKey="invalidKey"
+                                    select=".onSelectTab"
+                                    backgroundDesign="Transparent"
+                                    mode="Inline">
+                                    <layoutData>
+                                        <OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true" />
+                                    </layoutData>
+                                    <items>
+                                        <IconTabFilter text="Working For Us" />
+                                        <IconTabFilter text="What’s Happening" />
+                                        <IconTabFilter text="Have Your Say" />
+                                        <IconTabFilter text="COVID-19(Coronavirus)" />
+                                    </items>
+                                </IconTabHeader>
+                                <Button text="Back" press="backNavigation"></Button>
+                            <Button text="Logout" press="logoutNavigation" class="logout_button"></Button>
+                        </tnt:ToolHeader>           
+
+
+                    </customHeader>
+                     <footer>
+                         <Bar>
+                                <contentRight>
+                                    <Button id="edit" text="Edit" press="handleEditPress" />
+                                    <Button id="save" text="Save" type="Emphasized" visible="false" press="handleSavePress" />
+                                    <Button id="cancel" text="Cancel" visible="false" press="handleCancelPress" />
+                                </contentRight>
+                            </Bar>
+                    </footer>      
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
