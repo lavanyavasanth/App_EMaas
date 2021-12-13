@@ -23,10 +23,10 @@ var PageController = Controller.extend("bts.testapp.testproject1.controller.prof
         this._showFormFragment("Display");
     },
     
-    homeLogo: function(){
-        var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-        oRouter.navTo("home");
-    },
+    // homeLogo: function(){
+    //     var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+    //     oRouter.navTo("home");
+    // },
     logoutNavigation: function(){
         var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
         oRouter.navTo("home");

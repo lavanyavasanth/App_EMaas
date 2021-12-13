@@ -22,6 +22,10 @@ sap.ui.define([
             UpdatePress: function() {
                 var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
                 oRouter.navTo("profilePage");
+            },
+            EmpHistoryPress: function() {
+                var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+                oRouter.navTo("EmpHistory");
             }
 		});
 	});

@@ -90,6 +90,8 @@
                         "TestView.controller.js",
                         "Change.fragment.xml",
 					    "Display.fragment.xml",
+                        "EmpHistoryChange.fragment.xml",
+                        "EmpHistoryDisplay.fragment.xml",
                         "manifest.json"
                     ]
                 }
@@ -133,12 +135,20 @@
                     ]
                 }, 
                 {
+                    "name": "EmpHistory",
+                    "pattern": "EmpHistory",
+                    "target": [
+                        "TargetEmpHistory"
+                    ]
+                },
+                {
                     "name": "HRadmin",
                     "pattern": "HRadmin",
                     "target": [
                         "TargetHRadmin"
                     ]
                 }
+                
             ],
             "targets": {
                 "TargetTestView": {
@@ -175,6 +185,13 @@
                     "clearControlAggregation": false,
                     "viewId": "profilePage",
                     "viewName": "profilePage"
+                },
+                "TargetEmpHistory": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "EmpHistory",
+                    "viewName": "EmpHistory"
                 },
                 "TargetHRadmin": {
                     "viewType": "XML",

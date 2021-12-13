@@ -1,0 +1,97 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormChange480_12121"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="View my Details"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+                <core:Title text="Previous Work" />
+				<Label text="Department" />
+				<Input value="{Department}" />
+				<Label text="Role" />
+				<Input value="{Role}" />
+				<Label text="Location" />
+				<Input value="{Location}" />
+                <Label text="Timeframe" />
+				<Input value="{Timeframe}" />
+                <Label text="Description" />
+				<Input value="{Description}" />
+			</f:content>
+		</f:SimpleForm>
+        <f:SimpleForm id="SimpleFormChange480_12121-2"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<Label text="Department" />
+				<Input value="{Department1}" />
+				<Label text="Role" />
+				<Input value="{Role1}" />
+				<Label text="Location" />
+				<Input value="{Location1}" />
+                <Label text="Timeframe" />
+				<Input value="{Timeframe1}" />
+                <Label text="Description" />
+				<Input value="{Description1}" />
+			</f:content>
+		</f:SimpleForm>
+                <f:SimpleForm id="SimpleFormChange480_12121-3"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<Label text="Department" />
+				<Input value="{Department2}" />
+				<Label text="Role" />
+				<Input value="{Role2}" />
+				<Label text="Location" />
+				<Input value="{Location2}" />
+                <Label text="Timeframe" />
+				<Input value="{Timeframe2}" />
+                <Label text="Description" />
+				<Input value="{Description2}" />
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>

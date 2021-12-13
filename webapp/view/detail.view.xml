@@ -51,7 +51,7 @@
                                     <ImageContent  src="sap-icon://arrow-right" />
                                 </TileContent>    
                             </GenericTile>
-                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employment History"  press="#">        
+                            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Employment History"  press="EmpHistoryPress">        
                                 <TileContent >
                                     <ImageContent  src="sap-icon://arrow-right" />
                                 </TileContent>                        

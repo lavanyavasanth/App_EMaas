@@ -1,0 +1,23 @@
+{
+	"EmploymentHistory": [
+		{
+			"Department": "Premier and Cabinet",
+            "Role": "Manager Fiance & Reporting",
+            "Location": "Sydney",
+            "Timeframe": "Aug 2014 - Current",
+            "Description": "Provide strategic advice and manage financial performance for DPC using tools and systems.",            
+
+            "Department1": "Customer service",
+            "Role1": "Business Analyst",
+            "Location1": "Paramatta",
+            "Timeframe1": "Jan 2021 - Aug 2014",
+            "Description1": "The primary purpose of the role is to conduct and manage the development of cost benefit analysis and financial analysis to meet the business requirements.",
+            
+            "Department2": "Health",
+            "Role2": "Data Analyst",
+            "Location2": "Sydney",
+            "Timeframe2": "Jan 2011 - Jan 2012",
+            "Description2": "The Data Analyst/Tester is responsible for analysing data and quality assurance activities to ensure enterprise solutions for NSW Health are ready for production deployment."   
+		}
+	]
+}
